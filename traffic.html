@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAFFIC LIGHTS</title>
+    <link rel="stylesheet" href="traffic.css">
+</head>
+<body>
+    <h1 id="textChange">Change the color of your Traffic Lights</h1>
+    <!-- 1. select that particular HTML element through its id
+    2. document.getElementById('id')
+    3. assign this to a variable -->
+
+    <!-- box -->
+    <div id="box" class="colorBox"></div>
+
+    <div class="buttons">
+        <!-- when a function is called, we give arguments -->
+        <button class="button" onclick="changeColor ('redBox')">Change to Red</button>
+        <button class="button" onclick="changeColor('yellowBox')">Change to Yellow</button>
+        <button class="button" onclick="changeColor('greenBox')">Change to Green</button>
+    </div>     
+    <script src="traffic.js"></script>
+</body>
+</html>

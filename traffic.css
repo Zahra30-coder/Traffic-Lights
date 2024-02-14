@@ -1,0 +1,33 @@
+.colorBox {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    border-radius: 50%;
+   background-color: black;
+}
+
+#textChange{
+    margin: 50px 520px;
+}
+
+.buttons{
+    margin: 50px auto;
+    padding: 50px 400px;
+    border-radius: 15px;    
+}
+
+.button{
+    width: 150px;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: brown;    
+    color: white;
+    margin-right: 20px;
+    background-color: lightblue;
+    color: black;
+}
+
+.button:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9)
+}
